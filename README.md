@@ -1,11 +1,11 @@
-List of handy curls in all flavors:
+# List of handy curls in all flavors:
 
 simple get:
 ```
 curl www.knguyenvan.com
 ```
 
-get with details
+get with details (verbose)
 ```
-curl -i www.knguyenvan.com
+curl -v www.knguyenvan.com
 ```
