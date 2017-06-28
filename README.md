@@ -5,6 +5,11 @@ simple get:
 curl www.knguyenvan.com
 ```
 
+time a get curl:
+```
+time curl www.knguyenvan.com
+```
+
 get with details (verbose)
 ```
 curl -v www.knguyenvan.com
