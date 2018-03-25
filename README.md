@@ -2,25 +2,25 @@
 
 simple get:
 ```
-curl www.knguyenvan.com
+curl https://www.knguyenvan.com
 ```
 
 time a get curl:
 ```
-time curl www.knguyenvan.com
+time https://curl www.knguyenvan.com
 ```
 
 get with details (verbose)
 ```
-curl -v www.knguyenvan.com
+curl -v https://www.knguyenvan.com
 ```
 
 get with headers only 
 ```
-curl -I www.knguyenvan.com
+curl -I https://www.knguyenvan.com
 ```
 
 post with body
 ```
-curl -H "Content-type: application/json" -X POST -d '{"some_param":"some_value"}' www.knguyenvan.com
+curl -H "Content-type: application/json" -X POST -d '{"some_param":"some_value"}' https://www.knguyenvan.com
 ```
