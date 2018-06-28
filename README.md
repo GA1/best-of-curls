@@ -24,3 +24,8 @@ post with body
 ```
 curl -H "Content-type: application/json" -X POST -d '{"some_param":"some_value"}' https://www.knguyenvan.com
 ```
+
+get for retrieving headers only
+```
+curl -sSL -D - www.acooke.org -o /dev/null
+```
