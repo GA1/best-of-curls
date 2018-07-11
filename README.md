@@ -20,12 +20,14 @@ get with headers only
 curl -I https://www.knguyenvan.com
 ```
 
+
+get with headers only 2
+```
+curl -sSL -D - www.knguyenvan.org -o /dev/null
+```
+
 post with body
 ```
 curl -H "Content-type: application/json" -X POST -d '{"some_param":"some_value"}' https://www.knguyenvan.com
 ```
 
-get for retrieving headers only
-```
-curl -sSL -D - www.acooke.org -o /dev/null
-```
